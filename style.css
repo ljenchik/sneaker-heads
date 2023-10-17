@@ -34,17 +34,66 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
 h1 {
     color: #6d00fb;
     text-decoration: underline;
     background-image: linear-gradient(#74c9f1, #fb4040);
-    width: 70%;
+    width: 800px;
     text-align: center;
     height: 1.5em;
     border-radius: 0.3em;
     font-size: large;
     padding: 5px;
     /* text-shadow: 100px, 12px, 20px, yellow; */
+}
+
+#row1,
+#row2 {
+    width: 600px;
+}
+
+#jordans-1 {
+    height: 400px;
+    width: 600px;
+    border-right: 3px solid blue;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-radius: 5px;
+}
+
+#row1-section2 {
+    background-color: #74c9f1;
+    border: 3px solid #f17500;
+    border-radius: 10px;
+    color: white;
+    font: "Copperplate";
+    margin: 20px 0;
+    padding: 5px;
+}
+
+#jordans-2 {
+    height: 400px;
+    width: 600px;
+    border-left: 3px solid red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+}
+
+#row2 {
+    margin-left: 200px;
+}
+
+#row2-section2 {
+    background-color: #74c9f1;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 0;
+    padding: 5px;
 }
