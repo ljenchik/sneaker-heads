@@ -29,12 +29,14 @@ Images:
 */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap");
 
-html {
+body {
     background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
@@ -47,11 +49,13 @@ h1 {
     border-radius: 0.3em;
     padding: 12px;
     text-shadow: 3px 0px 6px #dbff39;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#row1,
-#row2 {
+#row1 {
     width: 600px;
+    margin-left: 78px;
 }
 
 #jordans-1 {
@@ -63,12 +67,6 @@ h1 {
     border-radius: 5px;
 }
 
-#jordans-1-desc,
-#jordans-2-desc {
-    margin: 0px;
-    padding: 6px 5px;
-}
-
 #row1-section2 {
     background-color: #74c9f1;
     border: 3px solid #f17500;
@@ -78,7 +76,17 @@ h1 {
     margin: 20px 0;
     padding: 0 5px;
     font-family: "Copperplate Gothic Std", sans-serif;
-    text-align: left;
+}
+
+#jordans-1-desc,
+#jordans-2-desc {
+    margin: 0px;
+    padding: 6px 5px;
+}
+
+#row2 {
+    width: 600px;
+    margin-left: 278px;
 }
 
 #jordans-2 {
@@ -88,10 +96,6 @@ h1 {
     border-top: 1px solid red;
     border-bottom: 1px solid red;
     border-radius: 5px;
-}
-
-#row2 {
-    margin-left: 200px;
 }
 
 #row2-section2 {
